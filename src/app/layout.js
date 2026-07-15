@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 export const metadata = {
   metadataBase: new URL("https://tudominio.com"),
 
-  title: "Estudio Jurídico Fernández | Abogados en Buenos Aires",
+  title: "Guerra y Asociados | Abogados en Buenos Aires",
 
   description:
     "Asesoramiento legal profesional en derecho civil, laboral, penal y comercial.",
