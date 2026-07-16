@@ -1,48 +1,49 @@
 import AnimationWrapper from "./AnimationWrapper";
 
 export default function Services() {
-  const services = [
-    {
-      title: "Familia",
-      description:
-        "Alimentos, régimen de comunicación, cuidado personal, divorcios, violencia familiar, acuerdos y ejecución de alimentos.",
-    },
-    {
-      title: "Civil y comercial",
-      description:
-        "Contratos, deudas, incumplimientos, cartas documento y reclamos civiles.",
-    },
-    {
-      title: "Penal",
-      description:
-        "Denuncias, defensas, lesiones, amenazas, violencia y urgencias.",
-    },
-    {
-      title: "Sucesiones",
-      description:
-        "Herencias, declaratoria de herederos, bienes, autos, inmuebles y cuentas bancarias.",
-    },
-    {
-      title: "Laboral",
-      description:
-        "Despidos, trabajo en negro, diferencias salariales e indemnizaciones. ART: accidentes laborales, enfermedades profesionales, altas médicas injustas, incapacidad y comisiones médicas. Accidentes de tránsito y daños: choques, reclamos al seguro, lesiones, daños materiales y mediaciones.",
-    },
-    {
-      title: "Tributario",
-      description:
-        "ARCA/ex AFIP, monotributo, deudas fiscales, intimaciones, multas, inspecciones y ejecuciones fiscales. Penal tributario: evasión, facturación apócrifa, causas fiscales complejas y defensas..",
-    },
-    {
-      title: "Defensa del consumidor",
-      description:
-        "reclamos contra empresas, bancos, financieras, tarjetas, garantías y planes de ahorro.",
-    },
-    {
-      title: "Inmobiliario/alquileres",
-      description:
-        "Contratos, problemas con propietarios o inquilinos y desalojos.",
-    },
-  ];
+ const services = [
+  {
+    title: "Familia",
+    description:
+      "Alimentos, régimen de comunicación, cuidado personal, divorcios, violencia familiar, acuerdos y ejecución de alimentos.",
+  },
+  {
+    title: "Civil y comercial",
+    description:
+      "Contratos, deudas, incumplimientos, cartas documento y reclamos civiles.",
+  },
+  {
+    title: "Penal",
+    description:
+      "Denuncias, defensas, lesiones, amenazas, violencia y urgencias.",
+  },
+  {
+    title: "Sucesiones",
+    description:
+      "Herencias, declaratoria de herederos, bienes, autos, inmuebles y cuentas bancarias.",
+  },
+  {
+    title: "Laboral",
+    description:
+      "Despidos, trabajo en negro, diferencias salariales, indemnizaciones, ART y accidentes de tránsito.",
+  },
+  {
+    title: "Tributario",
+    description:
+      "ARCA/ex AFIP, monotributo, deudas fiscales, intimaciones, multas, inspecciones y ejecuciones fiscales. Penal tributario: evasión, facturación apócrifa y causas fiscales complejas.",
+  },
+  {
+    title: "Defensa del consumidor",
+    description:
+      "Reclamos contra empresas, bancos, financieras, tarjetas, garantías y planes de ahorro.",
+  },
+  {
+    title: "Inmobiliario/alquileres",
+    description:
+      "Contratos, problemas con propietarios o inquilinos y desalojos.",
+  },
+];
+ 
 
   return (
     <AnimationWrapper>
