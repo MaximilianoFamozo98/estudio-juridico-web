@@ -1,4 +1,6 @@
 import { Montserrat, Playfair_Display } from "next/font/google";
+
+import WhatsAppButton from "../components/WhatsAppButton";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -61,15 +63,18 @@ export const metadata = {
   alternates: {
     canonical: "https://tudominio.com",
   },
+};
 
+export const viewport = {
   themeColor: "#1F2A40",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html lang="es" className={playfair.variable}>
       <body className={`${montserrat.className} ${playfair.variable}`}>
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );
