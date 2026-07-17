@@ -42,7 +42,7 @@ export default function Navbar() {
         }
       `}
     >
-      <div className="max-w-[1400px] mx-auto h-full px-10 md:px-10 flex items-center justify-between">
+      <div className="max-w-[1400px] mx-auto h-full px-6 md:px-10 flex items-center justify-between">
         {/* LOGO */}
         <div className="flex-shrink-0">
           <Logo scrolled={scrolled} />
@@ -69,7 +69,7 @@ export default function Navbar() {
         {/* BOTÓN HAMBURGUESA */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="lg:hidden text-[#E8E3D6] text-3xl z-50"
+          className="lg:hidden text-[#E8E3D6] text-3xl z-50 pr-4"
           aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
         >
           {menuOpen ? <HiX /> : <HiMenu />}
