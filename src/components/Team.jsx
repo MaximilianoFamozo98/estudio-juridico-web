@@ -4,8 +4,8 @@ import AnimationWrapper from "./AnimationWrapper";
 export default function Team() {
   return (
     <AnimationWrapper>
-      <section id="team" className="scroll-mt-[80px] py-32 bg-white">
-        <div className="max-w-[1240px] mx-auto px-6">
+      <section id="team" className="scroll-mt-[80px] py-32 bg-white flex justify-center">
+        <div className="max-w-[1240px] w-full px-6">
           {/* Título */}
 
           <div className="text-center mb-24">

@@ -8,9 +8,9 @@ export default function WhyChooseUs() {
     <AnimationWrapper>
       <section
         id="why"
-        className="scroll-mt-[80px] py-20 bg-white"
+        className="scroll-mt-[80px] py-20 bg-white flex justify-center"
       >
-        <div className="max-w-[1240px] mx-auto px-6">
+        <div className="max-w-[1240px] w-full px-6">
 
           {/* Título */}
 

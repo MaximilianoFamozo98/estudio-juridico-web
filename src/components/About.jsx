@@ -4,8 +4,8 @@ import AnimationWrapper from "./AnimationWrapper";
 export default function About() {
   return (
     <AnimationWrapper>
-      <section id="about" className="scroll-mt-[80px] py-32">
-        <div className="max-w-[1240px] mx-auto px-6">
+      <section id="about" className="scroll-mt-[80px] py-32 flex justify-center" style={{ border: "5px solid red" }}>
+        <div className="max-w-[1240px] w-full px-6">
           <div className="grid grid-cols-1 md:grid-cols-[1fr_1.2fr] gap-16 md:gap-20 items-center">
 
             {/* Texto */}

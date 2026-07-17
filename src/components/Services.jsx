@@ -47,8 +47,8 @@ export default function Services() {
 
   return (
     <AnimationWrapper>
-      <section id="services" className="scroll-mt-[80px] py-28">
-        <div className="max-w-[1200px] mx-auto px-6">
+      <section id="services" className="scroll-mt-[80px] py-28 flex justify-center">
+        <div className="max-w-[1200px] w-full px-6">
           {/* Header */}
           <div className="flex flex-col items-center text-center mb-20">
             <h2
