@@ -5,11 +5,11 @@ export default function Hero() {
     <section id="home" className="relative h-screen">
       {/* Background */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: "url('/images/hero.png')",
-        }}
-      />
+  className="absolute inset-0 bg-cover bg-[75%_center] md:bg-center"
+  style={{
+    backgroundImage: "url('/images/hero.png')",
+  }}
+/>
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50" />
