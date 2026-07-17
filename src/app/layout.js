@@ -32,7 +32,7 @@ export const metadata = {
 
   authors: [
     {
-      name: "Estudio Jurídico Fernández",
+      name: "Guerra y Asociados",
     },
   ],
 
@@ -41,7 +41,7 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Estudio Jurídico Fernández",
+    title: "Guerra y Asociados",
     description: "Asesoramiento legal integral y personalizado.",
     url: "https://tudominio.com",
     siteName: "Estudio Jurídico Fernández",
@@ -51,7 +51,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Estudio Jurídico Fernández",
+    title: "Guerra y Asociados",
     description: "Asesoramiento legal profesional",
   },
 
