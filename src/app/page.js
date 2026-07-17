@@ -12,9 +12,13 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
+      <br></br>
       <About />
+      <br></br>
       <WhyChooseUs />
+      <br></br>
       <Services />
+      <br></br>
       <Team />
       <Contact />
       <Footer />
