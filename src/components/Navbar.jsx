@@ -43,6 +43,7 @@ export default function Navbar() {
       `}
     >
       <div className="max-w-[1400px] mx-auto h-full px-6 md:px-10 flex items-center justify-between">
+        
         {/* LOGO */}
         <div className="flex-shrink-0">
           <Logo scrolled={scrolled} />

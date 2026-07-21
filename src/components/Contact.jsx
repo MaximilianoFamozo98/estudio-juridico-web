@@ -41,10 +41,23 @@ export default function Contact() {
   return (
     <AnimationWrapper>
       <section
-        id="contact"
-        className="scroll-mt-[80px] bg-[#F6F2EA] min-h-screen py-28 flex items-center justify-center"
-      >
-        <div className="max-w-[820px] w-full px-6">
+  id="contact"
+  className="
+    scroll-mt-[90px]
+    bg-[#F6F2EA]
+    min-h-screen
+    flex
+    items-center
+    justify-center
+    py-20
+    md:py-28
+    px-5
+    sm:px-8
+    lg:px-0
+  "
+>
+        <div className="w-full max-w-[820px] mx-auto px-5">
+          
           {/* Header */}
 
           <div className="text-center mb-16">
@@ -62,7 +75,7 @@ export default function Contact() {
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-7">
+          <form onSubmit={handleSubmit} className="space-y-5 md:space-y-7">
             <div className="grid md:grid-cols-2 gap-5">
               <input
                 type="text"
